@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  DKB Code
+
+  Created by Kumari Ritu Pal on 19/10/22.
+  
+*/
+
+//MARK: Navigation Bar titles
+"navbar_item_photo" = "Photos";
+"navbar_item_detail" = "Detail";
