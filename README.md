@@ -10,7 +10,7 @@ List of all the photos fetched from the api.
 ## **Data Flow Diagram**
 Network layer uses depedency Injection so that code would be more testable and we can inject the mock protocol while writing the unit test cases.
 
-<img width="819" alt="Screenshot 2022-10-20 at 6 28 47 PM" src="https://user-images.githubusercontent.com/39966383/196955262-149d1a54-35c2-46be-af40-5f01f2459aa1.png">
+<img width="837" alt="dfd" src="https://user-images.githubusercontent.com/39966383/196990302-3966baa0-e43b-46e2-8772-2f70bf2ba403.png">
 
 
 
