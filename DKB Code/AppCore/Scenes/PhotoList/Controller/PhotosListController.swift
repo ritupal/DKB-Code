@@ -11,6 +11,7 @@ class PhotosListController: UIViewController {
     
     // MARK: - Outlets and Properties
     @IBOutlet private weak var tableViewPhotos: UITableView!
+    
     private let viewModel: PhotoViewModel
     let tableDelegate: (UITableViewDelegate & UITableViewDataSource)
     

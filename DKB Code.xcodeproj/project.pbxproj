@@ -10,6 +10,8 @@
 		80CA8F287A686615FC4B1906 /* Pods_DKB_Code.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A874175125143DB1B9BA65B0 /* Pods_DKB_Code.framework */; };
 		8970BB99783F17B39CB2016B /* Pods_DKB_Code_DKB_CodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36142C6F83FB2943AE8AD2BD /* Pods_DKB_Code_DKB_CodeUITests.framework */; };
 		A0547FCD29012D34001D2795 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FCC29012D34001D2795 /* UIView+Extension.swift */; };
+		A0547FD42901447C001D2795 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */; };
+		A0547FD52901447C001D2795 /* PhotoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */; };
 		A0EF7A8C290045CA00B486DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EF7A8A290045CA00B486DF /* Main.storyboard */; };
 		A0EF7A8E290045CB00B486DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EF7A8D290045CB00B486DF /* Assets.xcassets */; };
 		A0EF7A91290045CB00B486DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EF7A8F290045CB00B486DF /* LaunchScreen.storyboard */; };
@@ -37,7 +39,6 @@
 		A0EF7AF0290072F300B486DF /* PhotoListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF7AEF290072F300B486DF /* PhotoListCellViewModel.swift */; };
 		A0EF7AF32900758400B486DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0EF7AF22900758400B486DF /* Localizable.strings */; };
 		A0EF7AF62900762400B486DF /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF7AF52900762400B486DF /* String+Localizable.swift */; };
-		A0EF7AF929007E6A00B486DF /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF7AF829007E6A00B486DF /* PhotoDetailViewController.swift */; };
 		A0EF7AFC29007EBB00B486DF /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF7AFB29007EBB00B486DF /* PhotoDetailViewModel.swift */; };
 		AF9D393566F46256E3D5BF07 /* Pods_DKB_CodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E342B36143D040BF37549 /* Pods_DKB_CodeTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,8 @@
 		60734C995D47020ADEB05258 /* Pods-DKB Code-DKB CodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKB Code-DKB CodeUITests.release.xcconfig"; path = "Target Support Files/Pods-DKB Code-DKB CodeUITests/Pods-DKB Code-DKB CodeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		64F106F5CCF2FD96595C469C /* Pods-DKB CodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKB CodeTests.debug.xcconfig"; path = "Target Support Files/Pods-DKB CodeTests/Pods-DKB CodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0547FCC29012D34001D2795 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailsViewController.xib; sourceTree = "<group>"; };
 		A0EF7A81290045CA00B486DF /* DKB Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DKB Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EF7A8B290045CA00B486DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EF7A8D290045CB00B486DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,7 +100,6 @@
 		A0EF7AEF290072F300B486DF /* PhotoListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCellViewModel.swift; sourceTree = "<group>"; };
 		A0EF7AF22900758400B486DF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A0EF7AF52900762400B486DF /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
-		A0EF7AF829007E6A00B486DF /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		A0EF7AFB29007EBB00B486DF /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
 		A874175125143DB1B9BA65B0 /* Pods_DKB_Code.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKB_Code.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF76DC469C309B3E254B7BC6 /* Pods-DKB CodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKB CodeTests.release.xcconfig"; path = "Target Support Files/Pods-DKB CodeTests/Pods-DKB CodeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -369,7 +371,8 @@
 		A0EF7AF729007E5400B486DF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A0EF7AF829007E6A00B486DF /* PhotoDetailViewController.swift */,
+				A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */,
+				A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0547FD52901447C001D2795 /* PhotoDetailsViewController.xib in Resources */,
 				A0EF7AF32900758400B486DF /* Localizable.strings in Resources */,
 				A0EF7A91290045CB00B486DF /* LaunchScreen.storyboard in Resources */,
 				A0EF7AEE2900710000B486DF /* PhotoListCell.xib in Resources */,
@@ -643,7 +647,7 @@
 				A0EF7AE12900653A00B486DF /* Identifiable.swift in Sources */,
 				A0EF7AE729006D7C00B486DF /* CustomNavigationController.swift in Sources */,
 				A0EF7AFC29007EBB00B486DF /* PhotoDetailViewModel.swift in Sources */,
-				A0EF7AF929007E6A00B486DF /* PhotoDetailViewController.swift in Sources */,
+				A0547FD42901447C001D2795 /* PhotoDetailsViewController.swift in Sources */,
 				A0EF7AD429004B0300B486DF /* RequestError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

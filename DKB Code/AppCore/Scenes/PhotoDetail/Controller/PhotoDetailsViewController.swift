@@ -8,9 +8,10 @@
 import UIKit
 
 class PhotoDetailViewController: UIViewController {
-    private let photo: Photo?
     
-    @IBOutlet weak var imageViewFull: UIImageView!
+    @IBOutlet private weak var imageViewFull: UIImageView!
+    private let photo: Photo?
+
     init?(coder: NSCoder, photo: Photo?) {
         self.photo = photo
         super.init(coder: coder)
@@ -27,7 +28,7 @@ class PhotoDetailViewController: UIViewController {
     }
     
     private func setData() {
-        guard let url = self.photo?.url, let imageURL = URL(string: url) else { return }
+        guard let photo = self.photo, let url = photo.url, let imageURL = URL(string: url) else { return }
         self.imageViewFull.sd_setImage(with: imageURL)
     }
 
