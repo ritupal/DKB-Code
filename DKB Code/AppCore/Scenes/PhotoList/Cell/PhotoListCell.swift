@@ -30,6 +30,7 @@ class PhotoListCell: UITableViewCell {
         self.viewMain.backgroundColor = Constants.Styles.mainColor
         self.imageViewThumbnail.backgroundColor = Constants.Styles.imageBgColor
         self.viewMain.addShadow(opacity: Constants.Default.shadowOpacity, color: Constants.Styles.mainColor, radius: Constants.Default.shadowRadius, offset: Constants.Default.shadowOffset)
+        self.labelTitle.textColor = Constants.Styles.cellTitleColor
     }
     
     func configureCell(viewModel: PhotoListCellViewModel) {

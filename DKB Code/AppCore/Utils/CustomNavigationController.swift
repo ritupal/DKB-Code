@@ -20,12 +20,10 @@ class CustomNavigationController: UINavigationController {
         self.navigationBar.isHidden = false
         self.navigationBar.isTranslucent = false
         self.navigationBar.tintColor = Constants.Styles.titleColor
-        
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = Constants.Styles.navBarBgColor
         self.navigationBar.standardAppearance = appearance
         self.navigationBar.scrollEdgeAppearance = appearance
-
     }
 
 }

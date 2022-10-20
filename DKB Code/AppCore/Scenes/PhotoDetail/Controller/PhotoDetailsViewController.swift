@@ -13,6 +13,7 @@ class PhotoDetailViewController: UIViewController {
     @IBOutlet private weak var imageViewFull: UIImageView!
     private let photo: Photo?
 
+    // MARK: - View Life Cycle
     init?(coder: NSCoder, photo: Photo?) {
         self.photo = photo
         super.init(coder: coder)
@@ -25,6 +26,7 @@ class PhotoDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = Constants.NavBarTitles.detail
+        self.view.backgroundColor = Constants.Styles.mainColor
         self.setData()
     }
     

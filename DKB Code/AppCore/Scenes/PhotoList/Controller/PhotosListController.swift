@@ -29,9 +29,13 @@ class PhotosListController: UIViewController {
     // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = Constants.NavBarTitles.photos
         self.setupTableView()
         self.fetchPhotosList()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationItem.title = Constants.NavBarTitles.photos
+        super.viewWillAppear(animated)
     }
     
     // MARK: - Methods
@@ -46,9 +50,9 @@ class PhotosListController: UIViewController {
     
     private func fetchPhotosList() {
         viewModel.fetchPhotos()
-        viewModel.onPhotoUpdate = {
+        viewModel.onPhotoUpdate = { [weak self] in
             DispatchQueue.main.async {
-                self.tableViewPhotos.reloadData()
+                self?.tableViewPhotos.reloadData()
             }
         }
     }
