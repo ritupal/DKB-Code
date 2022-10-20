@@ -2,9 +2,10 @@
 This is a photo application where a list of photos are displayed on the home screen and detail will be shown when user taps on any photo of the list.
 List of all the photos fetched from the api.
 
-## **App Home Page**
+## **App Design**
 
-![Simulator Screen Shot - iPhone 8 - 2022-10-20 at 15 07 45](https://user-images.githubusercontent.com/39966383/196915509-98c440d9-219a-44fa-bbb1-947fde3265ac.png)
+<img width="175" alt="Untitled 2" src="https://user-images.githubusercontent.com/39966383/196984968-a7631a9a-a911-44c3-a657-c766ec9e3d6c.png">.                            <img width="175" alt="Untitled" src="https://user-images.githubusercontent.com/39966383/196985242-31d3bd32-5c56-4dc3-a362-7787a9550112.png">
+
 
 ## **Data Flow Diagram**
 Network layer uses depedency Injection so that code would be more testable and we can inject the mock protocol while writing the unit test cases.
