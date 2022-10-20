@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PhotoViewModel {
+class PhotoListViewModel {
     let photoService: PhotoServiceable
     private(set) var photos: [Photo]? {
         didSet {

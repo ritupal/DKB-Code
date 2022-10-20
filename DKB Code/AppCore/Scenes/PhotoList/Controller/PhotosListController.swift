@@ -12,11 +12,11 @@ class PhotosListController: UIViewController {
     // MARK: - Outlets and Properties
     @IBOutlet private weak var tableViewPhotos: UITableView!
     
-    private let viewModel: PhotoViewModel
+    private let viewModel: PhotoListViewModel
     let tableDelegate: (UITableViewDelegate & UITableViewDataSource)
     
     // MARK: - Initializer
-    init?(coder: NSCoder, viewModel: PhotoViewModel, delegate: (UITableViewDelegate & UITableViewDataSource)) {
+    init?(coder: NSCoder, viewModel: PhotoListViewModel, delegate: (UITableViewDelegate & UITableViewDataSource)) {
         self.viewModel = viewModel
         self.tableDelegate = delegate
         super.init(coder: coder)

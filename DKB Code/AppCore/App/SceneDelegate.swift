@@ -30,7 +30,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let client = NetworkClient(session: .shared)
         let networkService = NetworkService(networkClient: client)
         let service = PhotoService(service: networkService)
-        let viewModel = PhotoViewModel.init(service: service)
+        let viewModel = PhotoListViewModel.init(service: service)
         let delegate = PhotoListVCDelegate(vm: viewModel)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         delegate.didClick = { [weak self] obj in

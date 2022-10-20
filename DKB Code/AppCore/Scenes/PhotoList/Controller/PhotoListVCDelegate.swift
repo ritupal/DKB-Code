@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 class PhotoListVCDelegate: NSObject, UITableViewDelegate, UITableViewDataSource {
-    private let viewModel: PhotoViewModel
+    private let viewModel: PhotoListViewModel
     var didClick: ((Photo?) -> Void)?
     
-    init(vm: PhotoViewModel) {
+    init(vm: PhotoListViewModel) {
         self.viewModel = vm
     }
     
