@@ -11,7 +11,6 @@
 		8970BB99783F17B39CB2016B /* Pods_DKB_Code_DKB_CodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36142C6F83FB2943AE8AD2BD /* Pods_DKB_Code_DKB_CodeUITests.framework */; };
 		A0547FCD29012D34001D2795 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FCC29012D34001D2795 /* UIView+Extension.swift */; };
 		A0547FD42901447C001D2795 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */; };
-		A0547FD52901447C001D2795 /* PhotoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */; };
 		A0547FD9290157ED001D2795 /* PhotoListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = A0547FD8290157ED001D2795 /* PhotoListResponse.json */; };
 		A0547FDB2901581E001D2795 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FDA2901581E001D2795 /* Mockable.swift */; };
 		A0547FDD29015A1E001D2795 /* HTTPClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0547FDC29015A1E001D2795 /* HTTPClientTest.swift */; };
@@ -76,7 +75,6 @@
 		64F106F5CCF2FD96595C469C /* Pods-DKB CodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKB CodeTests.debug.xcconfig"; path = "Target Support Files/Pods-DKB CodeTests/Pods-DKB CodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0547FCC29012D34001D2795 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
-		A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailsViewController.xib; sourceTree = "<group>"; };
 		A0547FD8290157ED001D2795 /* PhotoListResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhotoListResponse.json; sourceTree = "<group>"; };
 		A0547FDA2901581E001D2795 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 		A0547FDC29015A1E001D2795 /* HTTPClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientTest.swift; sourceTree = "<group>"; };
@@ -412,7 +410,6 @@
 			isa = PBXGroup;
 			children = (
 				A0547FD22901447C001D2795 /* PhotoDetailsViewController.swift */,
-				A0547FD32901447C001D2795 /* PhotoDetailsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -534,7 +531,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0547FD52901447C001D2795 /* PhotoDetailsViewController.xib in Resources */,
 				A0EF7AF32900758400B486DF /* Localizable.strings in Resources */,
 				A0EF7A91290045CB00B486DF /* LaunchScreen.storyboard in Resources */,
 				A0EF7AEE2900710000B486DF /* PhotoListCell.xib in Resources */,

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PhotoDetailViewModel {
+internal final class PhotoDetailViewModel {
     let photoService: PhotoServiceable
     let photoId: Int?
     
