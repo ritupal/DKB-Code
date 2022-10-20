@@ -24,10 +24,12 @@ class PhotoListCell: UITableViewCell {
 
     //MARK:- Methods
     private func setupUI() {
+        self.backgroundColor = Constants.Styles.defaultBgColor
         self.viewMain.layer.cornerRadius = Constants.Default.cornerRadius
         self.imageViewThumbnail.layer.cornerRadius = Constants.Default.cornerRadius
         self.viewMain.backgroundColor = Constants.Styles.mainColor
         self.imageViewThumbnail.backgroundColor = Constants.Styles.imageBgColor
+        self.viewMain.addShadow(opacity: Constants.Default.shadowOpacity, color: Constants.Styles.mainColor, radius: Constants.Default.shadowRadius, offset: Constants.Default.shadowOffset)
     }
     
     func configureCell(viewModel: PhotoListCellViewModel) {

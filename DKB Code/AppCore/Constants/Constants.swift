@@ -23,6 +23,7 @@ enum Constants {
         static let titleColor: UIColor = .black
         static let navBarBgColor: UIColor = .white
         static let imageBgColor: UIColor = .gray
+        static let defaultBgColor: UIColor = UIColor(red: 156.0/255.0, green: 218.0/255.0, blue: 244.0/255.0, alpha: 1.0)
     }
     
     enum NavBarTitles {

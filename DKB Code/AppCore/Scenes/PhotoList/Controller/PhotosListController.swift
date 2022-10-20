@@ -40,6 +40,7 @@ class PhotosListController: UIViewController {
         self.tableViewPhotos.register(UINib(nibName: PhotoListCell.reuseIdentifer, bundle: .main), forCellReuseIdentifier: PhotoListCell.reuseIdentifer)
         self.tableViewPhotos.tableFooterView = UIView.init(frame: .zero)
         self.tableViewPhotos.rowHeight = Constants.Default.rowHeight
+        self.tableViewPhotos.backgroundColor = Constants.Styles.defaultBgColor
     }
     
     private func fetchPhotosList() {
