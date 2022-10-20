@@ -7,6 +7,10 @@ List of all the photos fetched from the api.
 ![Simulator Screen Shot - iPhone 8 - 2022-10-20 at 15 07 45](https://user-images.githubusercontent.com/39966383/196915509-98c440d9-219a-44fa-bbb1-947fde3265ac.png)
 
 ## **Data Flow Diagram**
+Network layer uses depedency Injection so that code would be more testable and we can inject the mock protocol while writing the unit test cases.
+
+<img width="819" alt="Screenshot 2022-10-20 at 6 28 47 PM" src="https://user-images.githubusercontent.com/39966383/196955262-149d1a54-35c2-46be-af40-5f01f2459aa1.png">
+
 
 
 ## **Features**
@@ -39,6 +43,7 @@ pod install
 ```
 Press command + B and then command + R
 ```
-## **Unit Test code coverage**
 
-you can check the code coverage for the unit test cases from the following.
+
+
+
